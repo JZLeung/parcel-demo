@@ -1,0 +1,22 @@
+{
+  "name": "parcel-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "NODE_ENV=production && parcel build src/view/*.html -d build --public-url ./",
+    "dev": "parcel src/view/*.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^7.2.3",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "node-sass": "^4.7.2",
+    "postcss-modules": "^1.1.0"
+  },
+  "dependencies": {}
+}
